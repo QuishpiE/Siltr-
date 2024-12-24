@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif; /* Aplica la fuente Roboto al cuerpo del documento */
+            background-color: white;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6; /* Mejora la legibilidad */
+            display: flex; /* Permite usar flexbox */
+            flex-direction: column; /* Dirección de los elementos principales */
+        }
+
+        header {
+            background-color: #59768a; /* Color de fondo del encabezado */
+            color: white; /* Color del texto en el encabezado */
+            padding: 10px 0; /* Espaciado vertical */
+            text-align: center; /* Centra el texto */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+            margin-bottom: 20px; /* Espaciado entre secciones */
+        }
+
+        nav ul {
+            list-style-type: none; /* Elimina viñetas de la lista */
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline; /* Muestra los elementos de la lista en línea */
+            margin: 0 15px; /* Espaciado horizontal entre enlaces */
+        }
+
+        .content-wrapper {
+            display: flex; /* Aplica flexbox al contenedor de contenido */
+            justify-content: space-between; /* Espacio entre elementos */
+        }
+
+        main {
+            background-color: white; /* Color de fondo del contenido principal */
+            padding: 20px; /* Espaciado interno */
+            border-radius: 8px; /* Bordes redondeados */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+            flex: 1; /* Toma el espacio restante */
+        }
+
+        section, article {
+            margin-bottom: 20px; /* Espaciado entre secciones y artículos */
+            padding: 15px; /* Espaciado interno */
+            border: 1px solid #ccc; /* Bordes alrededor de las secciones */
+            border-radius: 5px; /* Bordes redondeados para secciones y artículos */
+        }
+
+        aside {
+            background-color: #f5f5f5; /* Color de fondo del aside */
+            padding: 10px; /* Espaciado interno */
+            border: 1px solid #ccc; /* Bordes alrededor del aside */
+            border-radius: 5px; /* Bordes redondeados para aside */
+            margin-top: 20px; /* Espaciado superior */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+            width: 250px; /* Ancho fijo para el aside */
+            margin-left: 20px; /* Espaciado entre el aside y el main */
+        }
+
+        footer {
+            text-align: center; /* Centra el texto del pie de página */
+            margin-top: 20px; /* Espaciado superior */
+            font-size: 0.8em; /* Tamaño de fuente más pequeño para el pie de página */
+            color: #777; /* Color del texto del pie de página */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenido a Mi Sitio Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre mí</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content-wrapper">
+        <main>
+            <section>
+                <h2>¿Qué es Siltré?</h2>
+                <p><strong>Siltré</strong> es un concepto filosófico que fusiona la idea de la vida como un arte en constante creación y evolución. Su origen fonético y lingüístico combina varias raíces de idiomas antiguos, como el latín, el francés y el japonés, reflejando una conexión profunda entre el ser humano y su capacidad para crear y vivir conscientemente.</p>
+
+                <h2>Filosofía detrás de Siltré</h2>
+                <p>La filosofía de <strong>Siltré</strong> se basa en la creencia de que la vida misma es un arte, y cada uno de nosotros tiene la capacidad de ser tanto el artista como la obra. A través de la reflexión, la creatividad y la conciencia, buscamos encontrar un equilibrio entre el ser, el hacer y el crear. Siltré no solo celebra el arte como forma de expresión, sino también como una manera de vivir plenamente.</p>
+
+                <h2>Origen Fonético y Lingüístico</h2>
+                <p>El término "Siltré" es una fusión creativa de varias influencias lingüísticas. Se deriva de la palabra francesa "Être" (ser), la raíz latina "Ars" (arte) y el concepto japonés "Sei" (vida o ser). Esta combinación no solo suena armónica, sino que también simboliza la interconexión de estos tres aspectos fundamentales de la experiencia humana.</p>
+
+                <h2>¿Cómo se aplica Siltré en la vida cotidiana?</h2>
+                <p>La práctica de Siltré invita a las personas a adoptar una mentalidad artística en su vida diaria. Esto significa ver cada momento como una oportunidad para crear, aprender y evolucionar. Ya sea a través del arte, la música, la escritura, o cualquier otra forma de expresión, Siltré nos anima a vivir conscientemente y a aplicar nuestra creatividad a todo lo que hacemos.</p>
+
+                <h2>Conclusión</h2>
+                <p>En resumen, <strong>Siltré</strong> es una filosofía única que nos invita a considerar la vida como una obra de arte, un proceso continuo de creación y transformación. A través de la reflexión y la acción consciente, podemos vivir plenamente, siendo tanto el creador como la creación.</p>
+            </section>
+
+            <article>
+                <h3>Artículo: Últimas Noticias</h3>
+                <p>Este es un artículo sobre lo más reciente en tecnología. Mantente al día con las últimas tendencias y novedades del sector.</p>
+            </article>
+        </main>
+
+        <aside>
+            <h4>Contenido Relacionado</h4>
+            <p>Aquí hay enlaces a artículos populares. Explora más sobre tus temas de interés.</p>
+        </aside>
+    </div>
+
+    <footer>
+        <p>Copyright © 2024 - Mi Sitio Web</p>
+    </footer>
+</body>
+</html>
+
+
